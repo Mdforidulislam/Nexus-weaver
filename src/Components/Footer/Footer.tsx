@@ -27,6 +27,11 @@ const Footer = () => {
           ab laboriosam. Cumque libero ratione ab, voluptas mollitia repellendus
           accusamus ipsam?
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+          ab laboriosam. Cumque libero ratione ab, voluptas mollitia repellendus
+          accusamus ipsam?
+        </p>
       </Container>
     </div>
   );

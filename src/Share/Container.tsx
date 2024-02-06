@@ -7,7 +7,7 @@ interface ShareProps {
 
 const Container: React.FC<ShareProps> = ({children}) =>{
     return(
-        <div className="max-w-screen-xl mx-auto px-4">
+        <div className="max-w-screen-xl mx-auto px-5">
             {children}
         </div>
     )

@@ -20,7 +20,7 @@ const HeroSection = () => {
         <span className="border-2 w-[100px] h-[2px"></span>
         <span>WELCOME TO AGENCY</span>
         <h1 className='text-6xl font-bold '>We are Creative <br/> Website <span className="text-[#27A1B0]">Development</span>  <br/> Agency</h1>
-        <p>We are 100+ professional software engineers with more than 10 years <br/> of experience in delivering superior products Believe it because you've seen it. <br/> Here are real numbers</p>
+        <p>We are 100+ professional software engineers with more than 10 years <br/> of experience in delivering superior products Believe it because youve seen it. <br/> Here are real numbers</p>
         <div className='flex gap-4 h-full items-center '>
         <button className="bg-[#27A1B0] text-white px-6 py-3 rounded-full ">  Discover more</button>
         <div>

@@ -7,9 +7,12 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Container from '@/Share/Container';
+import { useEffect, useState } from 'react';
 
 
 const Client = () => {
+   
+
   return (
     <div className='py-10'>
         <Container>
@@ -30,7 +33,7 @@ const Client = () => {
     {
         [0,2,3,23,3,4,2,3].map((item,index)=>(
             
-             <SwiperSlide key={item} >
+             <SwiperSlide key={index} >
                 <div className='h-[300px] border rounded-lg '>
                     hello
                 </div>

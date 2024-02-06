@@ -1,15 +1,16 @@
+"use client "
 import { ReactNode } from "react";
 
 interface ShareProps {
   children: ReactNode;
 }
 
-const Container: React.FC<ShareProps> = ({ children }) => {
-  return (
-    <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
-      {children}
-    </div>
-  );
-};
+const Container: React.FC<ShareProps> = ({children}) =>{
+    return(
+        <div className="max-w-screen-xl mx-auto px-4">
+            {children}
+        </div>
+    )
+}
 
 export default Container;

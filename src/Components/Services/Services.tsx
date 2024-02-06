@@ -21,7 +21,7 @@ const Services = () => {
 
         <div className=" grid grid-cols-3 gap-5 mt-8">
           {/* 1st card */}
-          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20">
+          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">
               <h3 className="text-2xl font-bold text-[#27A1B0]">
                 Website Development
@@ -37,7 +37,7 @@ const Services = () => {
             </div>
           </div>
           {/* 2nd card */}
-          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20">
+          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">
               <h3 className="text-2xl font-bold text-[#27A1B0] ">
                 App Development
@@ -53,7 +53,7 @@ const Services = () => {
             </div>
           </div>
           {/* 3rd card */}
-          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20">
+          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">
               <h3 className="text-2xl font-bold text-[#27A1B0]">
                 Digital Marketing
@@ -70,7 +70,7 @@ const Services = () => {
           </div>
 
           {/* 4rd card */}
-          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20">
+          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">
               <h3 className="text-2xl font-bold text-[#27A1B0]">
                 Graphic Design
@@ -86,7 +86,7 @@ const Services = () => {
             </div>
           </div>
           {/* 5th card */}
-          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20">
+          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">
               <h3 className="text-2xl font-bold text-[#27A1B0]">
                 Brand Identity
@@ -102,7 +102,7 @@ const Services = () => {
             </div>
           </div>
           {/* 6th card */}
-          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20">
+          <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">
               <h3 className="text-2xl font-bold text-[#27A1B0]">
                 Search Engine Optimization

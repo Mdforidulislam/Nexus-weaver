@@ -1,9 +1,12 @@
 
+import Client from "@/Components/ClientSection/Client";
+import Contact from "@/Components/Contact/Contact";
 
 export default function Home() {
   return (
       <main>
-           <h1>main section</h1>
+           <Client/>
+           <Contact/>
       </main>
   );
 }

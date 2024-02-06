@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <nav>
-                <ul className="flex gap-4 ">
+                <ul className="flex gap-8 text-xl  ">
                     <li><Link href='#home'>Home</Link></li>
                     <li><Link href='#home'>About</Link></li>
                     <li><Link href='#home'>Service</Link></li>

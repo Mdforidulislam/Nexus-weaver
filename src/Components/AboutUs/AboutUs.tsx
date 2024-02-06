@@ -18,44 +18,40 @@ const AboutUs = () => {
 
   return (
     <div>
-      <Container>
-        <div className="block md:flex gap-6 justify-between">
-          <div>
-            <Lottie options={defaultOptions} height={500} width={500}></Lottie>
-          </div>
-          <div>
-            <p>About Our Company</p>
-            <h1>Our Company Been Working Successfully For 1 Years</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.
-            </p>
-
-            {/* Table section here  */}
-
-            <Tabs>
-              <TabList>
-                <Tab>Our Vision</Tab>
-                <Tab>Our Mission</Tab>
-                <Tab>Our Goal</Tab>
-              </TabList>
-
-              <TabPanel>
-                <h2>Any content 1</h2>
-              </TabPanel>
-              <TabPanel>
-                <h2>Any content 2</h2>
-              </TabPanel>
-              <TabPanel>
-                <h2>Any content 3</h2>
-              </TabPanel>
-
-            </Tabs>
-          </div>
+     <Container>
+      <div className="block md:flex gap-6 justify-between">
+        <div>
+          {/* Lottie animation */}
+          <Lottie options={defaultOptions} height={500} width={500} />
         </div>
-      </Container>
+        <div className="flex-1">
+          <div>
+            <p className="text-[#27A1B0]">About Our Company</p>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Company Has Been Successfully Operating for 1 Year</h1>
+            <p className="text-gray-700 mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            </p>
+          </div>
+          {/* Tabs section */}
+          <Tabs>
+            <TabList className="flex mb-4">
+              <Tab className="px-4 py-2 bg-[#27A1B0] text-white rounded-md mr-2 cursor-pointer">Our Vision</Tab>
+              <Tab className="px-4 py-2 bg-[#27A1B0] text-white rounded-md mr-2 cursor-pointer">Our Mission</Tab>
+              <Tab className="px-4 py-2 bg-[#27A1B0] text-white rounded-md mr-2 cursor-pointer">Our Goal</Tab>
+            </TabList>
+            <TabPanel>
+              <p className="text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nostrum neque, quis vel eum voluptate quas blanditiis deserunt officiis sequi.</p>
+            </TabPanel>
+            <TabPanel>
+            <p className="text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nostrum neque, quis vel eum voluptate quas blanditiis deserunt officiis sequi.</p>
+            </TabPanel>
+            <TabPanel>
+            <p className="text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nostrum neque, quis vel eum voluptate quas blanditiis deserunt officiis sequi.</p>
+            </TabPanel>
+          </Tabs>
+        </div>
+      </div>
+    </Container>
     </div>
   );
 };

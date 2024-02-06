@@ -7,6 +7,7 @@ const Footer = () => {
     <div className="bg-[#27A1B0] py-6 px-6">
       <Container>
         <h1>footer</h1>
+
       </Container>
     </div>
   );

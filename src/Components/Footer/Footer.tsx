@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center">
           <div className="flex flex-col space-y-4 lg:space-y-6">
             <div className="flex items-center space-x-2">
-              <span className="text-2xl lg:text-4xl font-bold text-white">Let's</span>
+              <span className="text-2xl lg:text-4xl font-bold text-white">Lets</span>
               <Image src={logo} width={40} height={20} alt="logo"/>
             </div>
             <p className="text-2xl lg:text-4xl font-bold text-white">Connect.</p>

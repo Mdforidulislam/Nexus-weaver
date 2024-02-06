@@ -15,7 +15,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="flex justify-between gap-3 lg:py-14">
+    <div className="block md:flex justify-between gap-3 lg:py-14">
       <div className='lg:space-y-8 h-full'>
         <span className="border-2 w-[100px] h-[2px"></span>
         <span>WELCOME TO AGENCY</span>
@@ -29,7 +29,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div>
-        <Lottie options={defaultOptions} height={500} width={500}></Lottie>
+        <Lottie options={defaultOptions} height={500} width={400} ></Lottie>
       </div>
     </div>
   );

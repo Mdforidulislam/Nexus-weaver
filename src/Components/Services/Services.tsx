@@ -1,30 +1,23 @@
 "use client";
 import Container from "@/Share/Container";
+import Title from "@/Share/Titile";
 import React from "react";
 
 const Services = () => {
   return (
-    <div
-      className="py-10"
-      style={{
-        backgroundImage: "radial-gradient(#c3b6e0, #ffffff,  #ffffff)",
-      }}
-    >
+    <div id="service" className="py-10">
+      <Title
+        heading="What We Offer"
+        subHeading="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptates, assumenda? "
+      />
       <Container>
         <div
-        style={{
-          backgroundImage: "radial-gradient(#baedf5, #f0f9fa,  #ffffff)",
-        }}
-        className="text-center py-10 space-y-2 border rounded-full"
-      >
-        <h1 className="text-3xl font-bold">What We Offer</h1>
-        <p>
-        Where Strategy Meets Digital. Your Success Story Begins with
-            Digimax.
-        </p>
-      </div>
-
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+          style={{
+            backgroundImage: "radial-gradient(#c3b6e0, #ffffff,  #ffffff)",
+          }}
+          className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"
+        >
           {/* 1st card */}
           <div className="border rounded-md p-2 hover:shadow-xl hover:bg-cyan-600/20 border-[#27A1B0]">
             <div className=" space-y-3 rounded-md p-5 m-2">

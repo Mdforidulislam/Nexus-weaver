@@ -190,7 +190,7 @@ const Blogs = () => {
               </CardContent>
               <Divider />
               <Typography style={{ padding: "10px" }}>
-                Post Date : January 19, 2024{" "}
+                Post Date : January 19, 2024
               </Typography>
             </CardActionArea>
           </Card>

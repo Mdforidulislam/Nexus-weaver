@@ -11,13 +11,18 @@ const Services = () => {
       }}
     >
       <Container>
-        <div className="text-center">
-          <h1 className="text-3xl font-bold">What We Offer</h1>
-          <p>
-            Where Strategy Meets Digital. Your Success Story Begins with
+        <div
+        style={{
+          backgroundImage: "radial-gradient(#baedf5, #f0f9fa,  #ffffff)",
+        }}
+        className="text-center py-10 space-y-2 border rounded-full"
+      >
+        <h1 className="text-3xl font-bold">What We Offer</h1>
+        <p>
+        Where Strategy Meets Digital. Your Success Story Begins with
             Digimax.
-          </p>
-        </div>
+        </p>
+      </div>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
           {/* 1st card */}

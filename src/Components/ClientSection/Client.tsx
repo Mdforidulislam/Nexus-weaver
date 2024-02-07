@@ -8,20 +8,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Container from "@/Share/Container";
 import { useEffect, useState } from "react";
+import Title from "@/Share/Titile";
 
 const Client = () => {
   return (
     <div className="py-10">
+      <Title heading="TESTIMONIALS" subHeading="What People Say?" />
       <Container>
-        <div
-          style={{
-            backgroundImage: "radial-gradient(#baedf5, #f0f9fa,  #ffffff)",
-          }}
-          className="text-center py-10 space-y-2 border rounded-full mb-6"
-        >
-          <h1 className="text-3xl font-bold">TESTIMONIALS</h1>
-          <p>What People Say?</p>
-        </div>
         <Swiper
           modules={[Pagination]}
           spaceBetween={50}

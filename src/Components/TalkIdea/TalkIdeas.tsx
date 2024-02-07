@@ -2,6 +2,7 @@
 import Container from "@/Share/Container";
 import animation from "../../../public/Animation4.json";
 import Lottie from "react-lottie";
+import Button from "@/Share/Button";
 const TalkIdeas = () => {
   const defaultOptions = {
     loop: true,
@@ -24,9 +25,7 @@ const TalkIdeas = () => {
               absolutely <br /> free
             </p>
 
-            <button className="bg-[#27A1B0] text-white px-10 py-3 rounded-full ">
-              Let&apos;s talk to us
-            </button>
+            <Button btnText="Let's talk to us" />
           </div>
           <div>
             <Lottie options={defaultOptions} height={500} width={500}></Lottie>

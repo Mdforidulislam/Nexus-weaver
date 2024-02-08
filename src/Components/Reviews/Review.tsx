@@ -80,7 +80,7 @@ const Review = () => {
                       <Image
                         className="w-12 border bg-[#27A1B0] rounded-full "
                         src={review.client_image}
-                        alt=""
+                        alt=" Review Client Image"
                         width={50}
                         height={50}
                       />

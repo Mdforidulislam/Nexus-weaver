@@ -6,18 +6,19 @@ import Portfolio from "@/Components/Portfolio/Portfolio";
 import Review from "@/Components/Reviews/Review";
 import Services from "@/Components/Services/Services";
 import TalkIdeas from "@/Components/TalkIdea/TalkIdeas";
+import Team from "@/Components/Team/Team";
 
 export default function Home() {
   return (
-      <main>
-           <Services/>
-           <TalkIdeas/>
-           <Portfolio/>
-           <AboutUs/>
-           <Blogs/>
-           <Client/>
-           <Review/>
-           <Contact/>
-      </main>
+    <main>
+      <Services />
+      <TalkIdeas />
+      <Portfolio />
+      <AboutUs />
+      <Blogs />
+      <Review />
+      <Team />
+      <Contact />
+    </main>
   );
 }

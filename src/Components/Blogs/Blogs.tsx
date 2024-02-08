@@ -13,6 +13,9 @@ const Blogs = () => {
     <div className="my-10">
 
      
+      
+      
+
       <Container>
       <div
         style={{
@@ -31,8 +34,6 @@ const Blogs = () => {
         subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
           fugiat."
       />
-
-      <Container>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
           <Card

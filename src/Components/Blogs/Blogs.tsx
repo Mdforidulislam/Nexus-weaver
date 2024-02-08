@@ -7,9 +7,11 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea, Divider } from "@mui/material";
 import Image from "next/image";
 import img1 from "@/Assets/blog1.jpg";
+import Title from "@/Share/Titile";
 const Blogs = () => {
   return (
     <div className="my-10">
+
      
       <Container>
       <div
@@ -24,6 +26,14 @@ const Blogs = () => {
           fugiat.
         </p>
       </div>
+      <Title
+        heading="Article & News"
+        subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
+          fugiat."
+      />
+
+      <Container>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
           <Card
             sx={{
@@ -191,7 +201,7 @@ const Blogs = () => {
               </CardContent>
               <Divider />
               <Typography style={{ padding: "10px" }}>
-                Post Date : January 19, 2024{" "}
+                Post Date : January 19, 2024
               </Typography>
             </CardActionArea>
           </Card>

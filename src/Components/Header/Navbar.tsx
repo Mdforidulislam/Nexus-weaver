@@ -9,8 +9,8 @@ const Navbar = () => {
                 <ul className="flex gap-8 text-xl  ">
                     <li><Link href='#home'>Home</Link></li>
                     <li><Link href='#home'>About</Link></li>
-                    <li><Link href='#home'>Service</Link></li>
-                    <li><Link href='#home'>Contact</Link></li>
+                    <li><Link href='#service'>Service</Link></li>
+                    <li><Link href='#contact'>Contact</Link></li>
                 </ul>
             </nav>
         </div>

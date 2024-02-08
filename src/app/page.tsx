@@ -3,6 +3,7 @@ import Blogs from "@/Components/Blogs/Blogs";
 import Client from "@/Components/ClientSection/Client";
 import Contact from "@/Components/Contact/Contact";
 import Portfolio from "@/Components/Portfolio/Portfolio";
+import Review from "@/Components/Reviews/Review";
 import Services from "@/Components/Services/Services";
 import TalkIdeas from "@/Components/TalkIdea/TalkIdeas";
 
@@ -15,6 +16,7 @@ export default function Home() {
            <AboutUs/>
            <Blogs/>
            <Client/>
+           <Review/>
            <Contact/>
       </main>
   );

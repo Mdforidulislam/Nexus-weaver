@@ -6,3 +6,19 @@
 html {
     @apply  scroll-smooth;
   }
+  @keyframes slide {
+    0%, 100% {
+      transform: translateX(0);
+      border-color: #ffffffa5; /* Initial and final color */
+    }
+    50% {
+      transform: translateX(20px);
+      border-color: #27A1B0; /* Midpoint color */
+    }
+  }
+  
+  .border-animate {
+    border: 2px solid #78473764; /* Initial border style */
+    animation: slide 2s infinite; /* Apply the animation */
+  }
+  

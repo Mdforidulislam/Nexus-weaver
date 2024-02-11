@@ -13,22 +13,22 @@ const TalkIdeas = () => {
     },
   };
   return (
-    <div>
+    <div className="lg:mb-20">
       <Container>
-        <div className="flex justify-center items-center gap-14">
+        <div className="block md:flex justify-center items-center gap-14">
           <div className="space-y-3">
             <h3 className="text-5xl font-bold">
               Let&apos;s talk about your idea <br /> today
             </h3>
-            <p>
+            <p className="w-2/4">
               For any types of query, you can book a 30 min call with us
-              absolutely <br /> free
+              absolutely Lorem ipsum dolor <br /> sit amet consectetur adipisicing elit. Dolore, repellat! Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Enim, neque?  free
             </p>
 
             <Button btnText="Let's talk to us" />
           </div>
           <div>
-            <Lottie options={defaultOptions} height={500} width={500}></Lottie>
+            <Lottie options={defaultOptions} height={400} width={400}></Lottie>
           </div>
         </div>
       </Container>

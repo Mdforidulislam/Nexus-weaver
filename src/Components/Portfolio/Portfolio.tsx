@@ -1,106 +1,42 @@
 "use client"
 
+import React, { useState, useRef } from "react";
 import Container from "@/Share/Container";
-import { useState } from "react";
 import Title from "@/Share/Titile";
 
 const Portfolio = () => {
-  const [activeItem, setActiveItem] = useState(null);
-
-  const handleMouseEnter = (index) => {
-    setActiveItem(index);
-  };
-
-  const handleMouseLeave = () => {
-    setActiveItem(null);
-  };
+  const [visible,setVisible] = useState(0)
 
   return (
     <div className="my-10">
-      <Title
-        heading="Portfolio"
-        subHeading="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptates, assumenda? "
-      />
-
+      <Title heading="Portfolio Item" subHeading="See Our Best Project for ever"/>
       <Container>
-        <div
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+               {
+                [0,1,2].map((item,index)=>(
+                  <div onMouseEnter={()=>setVisible(index)} onMouseLeave={()=>setVisible(12)} key={index} className="w-full h-[500px] bg-[#27A1B0] border-2 relative flex justify-center items-end rounded-md overflow-hidden cursor-pointer">
+                       
+                      <div className=" flex justify-center items-center w-full h-full">
+                        <h1 className="text-white">Inventory Management </h1>
+                      </div>
 
-          style={{
-            backgroundImage: "radial-gradient(#baedf5, #f0f9fa, #ffffff)",
-          }}
-          className="text-center py-10 space-y-2 border rounded-full"
-        >
-          <h1 className="text-3xl font-bold">Our Portfolios</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatem, fugiat.
-          </p>
-        </div>
-        {/* portfolio section */}
-        {[0, 1, 2].map((index) => (
-          <div
-            key={index}
-            onMouseEnter={() => handleMouseEnter(index)}
-            onMouseLeave={handleMouseLeave}
-            className={`overflow-hidden cursor-pointer md:mt-20 mt-8 h-[500px] border-2 relative ${
-              activeItem === index ? "bg-blue-200" : ""
-            }`}
-            style={{
-              backgroundImage:
-                'url("https://i.pinimg.com/originals/22/70/f8/2270f87a22ea3e1e2eb60a4bb1192ee6.png")',
-              backgroundSize: "cover",
-              width: "full",
-              height: "full",
-            }}
-          >
-            <div
-              className={`bg-gray-400 bg-opacity-65 relative flex justify-center items-center h-full ${
-                activeItem === index ? "bg-white w-full" : "hidden"
-              }`}
-            >
-              {/* main section */}
-              <div
-                className={`flex justify-center items-center w-full h-full ${
-                  activeItem === index ? "hidden" : ""
-                }`}
-              >
-                <h1 className="text-white text-2xl font-bold">
-                  Inventor Management
-                </h1>
-              </div>
+                      <div  className={`absolute bg-slate-50 w-[370px] px-3 border-2 -mb-14 ${visible === item?"-translate-y-60 duration-700" :"translate-y-0 duration-700"}`}>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, expedita?</p>
 
-              {/* top section */}
-              <div
-                className={`mb-0 flex items-end absolute h-full px-6 py-6 mt-[510px] w-full z-10 ${
-                  activeItem === index
-                    ? "duration-700 -translate-y-96"
-                    : ""
-                }`}
-              >
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptates, assumenda? Lorem, ipsum dolor sit amet
-                  consectetur adipisicing elit. Ipsa quas doloremque quis cum,
-                  itaque non harum sit maiores perferendis expedita.
-                  <div className="flex gap-6 py-10">
-                    <button className="px-6 py-2 bg-black text-white">
-                      Live link
-                    </button>
-                    <button className="px-6 py-2 bg-black text-white">
-                      Server code Github Link
-                    </button>
-                    <button className="px-6 py-2 bg-black text-white">
-                      Client code Github link
-                    </button>
+                        <div className="flex flex-wrap gap-5 mt-10">
+                        <button className="bg-[#27A1B0] px-6 py-2 rounded-md text-white">Live Link</button>
+
+                        <button className="bg-[#27A1B0] px-6 py-2 rounded-md text-white">Client Link</button>
+
+                        <button className="bg-[#27A1B0] px-6 py-2 rounded-md text-white">Github Link</button>
+
+                        </div>
+
+                      </div>
                   </div>
-                </span>
-              </div>
-            </div>
-          </div>
-        ))}
-
-          
+                ))
+               }
+           </div>
       </Container>
     </div>
   );

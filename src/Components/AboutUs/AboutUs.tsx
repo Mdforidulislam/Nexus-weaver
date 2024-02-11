@@ -19,10 +19,10 @@ const AboutUs = () => {
   return (
     <div>
      <Container>
-      <div className="block md:flex gap-6 justify-between">
+      <div className="block md:flex gap-6 justify-between md:pt-16">
         <div>
           {/* Lottie animation */}
-          <Lottie options={defaultOptions} height={500} width={500} />
+          <Lottie options={defaultOptions} height={500} width={400} />
         </div>
         <div className="flex-1">
           <div>

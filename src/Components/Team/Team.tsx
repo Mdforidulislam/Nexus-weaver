@@ -31,7 +31,7 @@ const Team = () => {
         <Title
           heading={"Our Team"}
           subHeading={
-            "You’ll enjoy knowing our dedicated team will do whatever is needed to keep your pets happy, healthy and safe when you’re away from home."
+            "The Driving Force Behind Innovation and Success"
           }
         />
       </div>

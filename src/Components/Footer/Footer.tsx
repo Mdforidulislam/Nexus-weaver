@@ -21,9 +21,7 @@ const Footer = () => {
               Connect.
             </p>
             <p className="text-gray-400 text-sm lg:text-md w-3/4">
-              Quisquam Est, Qui Dolorem Ipsum Quia Dolor Sit Amet, Consectetur
-              Adipisci Velit, Sed Quia Non Numquam Eius Modi Tempora Incidunt
-              Labore Et Dolore Magnam.
+            Ready to discuss your project goals and explore how Nexus Weaver can help bring your vision to life?. Set up a meeting with our team today. We&apos;re excited to learn more about your company and how we can personalize our services to match your requirements.
             </p>
             <div className="flex gap-4 text-[#27A1B0] text-2xl lg:text-3xl">
               <FaLinkedinIn />

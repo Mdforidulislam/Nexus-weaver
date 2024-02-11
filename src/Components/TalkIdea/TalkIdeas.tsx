@@ -21,8 +21,10 @@ const TalkIdeas = () => {
               Let&apos;s talk about your idea <br /> today
             </h3>
             <p className="w-2/4">
-              For any types of query, you can book a 30 min call with us
-              absolutely Lorem ipsum dolor <br /> sit amet consectetur adipisicing elit. Dolore, repellat! Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Enim, neque?  free
+              Your ideas are the driving factor behind our efforts. Whether you
+              have a clear vision or need assistance fleshing out your idea,
+              we&apos;re here to listen and cooperate with you every step of the way.
+              Let us work together to make your vision a reality.
             </p>
 
             <Button btnText="Let's talk to us" />

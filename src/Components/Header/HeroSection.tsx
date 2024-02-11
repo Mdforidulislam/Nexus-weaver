@@ -1,4 +1,5 @@
-"use client"
+/* eslint-disable react/no-unescaped-entities */
+"use client";
 
 import React, { useState } from "react";
 import { MdOutlineOndemandVideo } from "react-icons/md";
@@ -16,20 +17,39 @@ const HeroSection = () => {
 
   return (
     <div className="block md:flex justify-between gap-3 lg:py-20">
-      <div className='lg:space-y-8 h-full'>
-        <span className="border-2 w-[100px] h-[2px]"></span>
-        <span>WELCOME TO AGENCY</span>
-        <h1 className='text-6xl font-bold '>We are Creative <br/> Website <span className="text-[#27A1B0]">Development</span>  <br/> Agency</h1>
-        <p>We are 100+ professional software engineers with more than 10 years <br/> of experience in delivering superior products Believe it because youve seen it. <br/> Here are real numbers</p>
-        <div className='flex gap-4 h-full items-center '>
-        <button className="bg-[#27A1B0] text-white px-6 py-3 rounded-full ">  Discover more</button>
-        <div>
-            <button className="flex gap-1 h-full items-center"> <span className="text-2xl"><MdOutlineOndemandVideo /></span>Watch video</button>
+      <div className="lg:space-y-8 h-full">
+        <span className="border-l-4 border-[#27A1B0] py-2 pl-3 "> Nexus Weaver</span>
+        <div className="w-4/5 space-y-5">
+          <h1 className="text-6xl font-bold leading-none ">
+            Your Partner in Crafting
+            <span className="text-[#27A1B0]"> Dynamic </span> Web Experiences
+          </h1>
+          <p >
+            Experience the synergy of Nexus Weaver's broad services, including
+            pioneering digital solutions and cutting-edge Learning Management
+            Systems, as well as dynamic MERN Stack web development and efficient
+            Content Management Solutions. Begin your digital journey with us
+            today.
+          </p>
         </div>
+        <div className="flex gap-4 h-full items-center ">
+          <button className="bg-[#27A1B0] text-white px-6 py-3 rounded-full ">
+            {" "}
+            Discover more
+          </button>
+          <div>
+            <button className="flex gap-1 h-full items-center">
+              {" "}
+              <span className="text-2xl">
+                <MdOutlineOndemandVideo />
+              </span>
+              Watch video
+            </button>
+          </div>
         </div>
       </div>
       <div>
-        <Lottie options={defaultOptions} height={500} width={400} ></Lottie>
+        <Lottie options={defaultOptions} height={500} width={400}></Lottie>
       </div>
     </div>
   );

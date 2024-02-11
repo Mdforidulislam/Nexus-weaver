@@ -14,8 +14,7 @@ const Blogs = () => {
       <Container>
         <Title
           heading="Article & News"
-          subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
-          fugiat."
+          subHeading="Insights and Strategies for Businesses"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">

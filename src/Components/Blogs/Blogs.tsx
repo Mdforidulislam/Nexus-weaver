@@ -11,29 +11,12 @@ import Title from "@/Share/Titile";
 const Blogs = () => {
   return (
     <div className="my-10">
-
-     
-      
-      
-
       <Container>
-      <div
-        style={{
-          backgroundImage: "radial-gradient(#baedf5, #f0f9fa,  #ffffff)",
-        }}
-        className="text-center py-5 px-5 md:py-20   space-y-2 border rounded-full"
-      >
-        <h1 className="text-3xl  font-bold">Article & News</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
-          fugiat.
-        </p>
-      </div>
-      <Title
-        heading="Article & News"
-        subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
+        <Title
+          heading="Article & News"
+          subHeading="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
           fugiat."
-      />
+        />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
           <Card

@@ -10,8 +10,8 @@ const Footer = () => {
     <div className="bg-[#232b35] py-10 space-y-6">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-center">
-          <div className="flex flex-col space-y-4 lg:space-y-6  text-center mx-auto">
-            <div className="flex items-center space-x-2">
+          <div className="flex flex-col space-y-4 lg:space-y-6  mx-auto">
+            <div className="flex space-x-2">
               <span className="text-2xl lg:text-4xl font-bold text-white">
                 Lets
               </span>
@@ -20,7 +20,7 @@ const Footer = () => {
             <p className="text-2xl lg:text-4xl font-bold text-white">
               Connect.
             </p>
-            <p className="text-gray-400 text-lg lg:text-xl w-3/4">
+            <p className="text-gray-400 text-sm lg:text-md w-3/4">
               Quisquam Est, Qui Dolorem Ipsum Quia Dolor Sit Amet, Consectetur
               Adipisci Velit, Sed Quia Non Numquam Eius Modi Tempora Incidunt
               Labore Et Dolore Magnam.

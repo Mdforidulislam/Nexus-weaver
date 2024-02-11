@@ -37,14 +37,12 @@ const Blogs = () => {
                   fontWeight={700}
                   component="div"
                 >
-                  From Clicks to Conversions: Optimizing Your Online Store for
-                  Maximum Sales Impact.
+                 Optimizing Your Online Store 
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptate, fugiat molestias accusamus officia aliquam adipisci
-                  nemo facere est vitae possimus aut laudantium doloribus, non
-                  doloremque quia voluptates facilis impedit maxime!
+                  nemo facere est ...
                 </Typography>
               </CardContent>
               <Divider />
@@ -71,14 +69,12 @@ const Blogs = () => {
                   fontWeight={700}
                   component="div"
                 >
-                  From Clicks to Conversions: Optimizing Your Online Store for
-                  Maximum Sales Impact.
+                 Optimizing Your Online Store 
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptate, fugiat molestias accusamus officia aliquam adipisci
-                  nemo facere est vitae possimus aut laudantium doloribus, non
-                  doloremque quia voluptates facilis impedit maxime!
+                  nemo facere est ...
                 </Typography>
               </CardContent>
               <Divider />
@@ -105,14 +101,12 @@ const Blogs = () => {
                   fontWeight={700}
                   component="div"
                 >
-                  From Clicks to Conversions: Optimizing Your Online Store for
-                  Maximum Sales Impact.
+                 Optimizing Your Online Store 
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptate, fugiat molestias accusamus officia aliquam adipisci
-                  nemo facere est vitae possimus aut laudantium doloribus, non
-                  doloremque quia voluptates facilis impedit maxime!
+                  nemo facere est ...
                 </Typography>
               </CardContent>
               <Divider />
@@ -121,108 +115,7 @@ const Blogs = () => {
               </Typography>
             </CardActionArea>
           </Card>
-          <Card
-            sx={{
-              " :hover": {
-                color: "white",
-                backgroundColor: "#27A1B0",
-                boxShadow: 20,
-              },
-            }}
-          >
-            <CardActionArea>
-              <Image src={img1} alt="blog image 1" />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  fontWeight={700}
-                  component="div"
-                >
-                  From Clicks to Conversions: Optimizing Your Online Store for
-                  Maximum Sales Impact.
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate, fugiat molestias accusamus officia aliquam adipisci
-                  nemo facere est vitae possimus aut laudantium doloribus, non
-                  doloremque quia voluptates facilis impedit maxime!
-                </Typography>
-              </CardContent>
-              <Divider />
-              <Typography style={{ padding: "10px" }}>
-                Post Date : January 19, 2024{" "}
-              </Typography>
-            </CardActionArea>
-          </Card>
-          <Card
-            sx={{
-              " :hover": {
-                color: "white",
-                backgroundColor: "#27A1B0",
-                boxShadow: 20,
-              },
-            }}
-          >
-            <CardActionArea>
-              <Image src={img1} alt="blog image 1" />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  fontWeight={700}
-                  component="div"
-                >
-                  From Clicks to Conversions: Optimizing Your Online Store for
-                  Maximum Sales Impact.
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate, fugiat molestias accusamus officia aliquam adipisci
-                  nemo facere est vitae possimus aut laudantium doloribus, non
-                  doloremque quia voluptates facilis impedit maxime!
-                </Typography>
-              </CardContent>
-              <Divider />
-              <Typography style={{ padding: "10px" }}>
-                Post Date : January 19, 2024
-              </Typography>
-            </CardActionArea>
-          </Card>
-          <Card
-            sx={{
-              " :hover": {
-                color: "white",
-                backgroundColor: "#27A1B0",
-                boxShadow: 20,
-              },
-            }}
-          >
-            <CardActionArea>
-              <Image src={img1} alt="blog image 1" />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  fontWeight={700}
-                  component="div"
-                >
-                  From Clicks to Conversions: Optimizing Your Online Store for
-                  Maximum Sales Impact.
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate, fugiat molestias accusamus officia aliquam adipisci
-                  nemo facere est vitae possimus aut laudantium doloribus, non
-                  doloremque quia voluptates facilis impedit maxime!
-                </Typography>
-              </CardContent>
-              <Divider />
-              <Typography style={{ padding: "10px" }}>
-                Post Date : January 19, 2024{" "}
-              </Typography>
-            </CardActionArea>
-          </Card>
+         
         </div>
       </Container>
     </div>

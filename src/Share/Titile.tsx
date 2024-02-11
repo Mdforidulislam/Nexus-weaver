@@ -14,7 +14,7 @@ const Title: React.FC<TitleProps> = ({ heading, subHeading }) => {
       className="text-center py-5 px-5 md:py-16  space-y-2 "
     >
       <h1 className="text-3xl font-bold uppercase">{heading}</h1>
-      <p>{subHeading}</p>
+      <p className="w-full md:w-1/2 mx-auto">{subHeading}</p>
     </div>
   );
 };

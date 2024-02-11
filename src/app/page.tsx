@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <main>
       <Services />
-      <TalkIdeas />
       <Portfolio />
       <AboutUs />
       <Blogs />
       <Review />
       <Team />
+      <TalkIdeas />
       <Contact />
     </main>
   );

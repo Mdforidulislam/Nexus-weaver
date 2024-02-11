@@ -25,7 +25,8 @@ const Team = () => {
       .then((data: TeamData[]) => setTeamMembers(data));
   }, []);
   return (
-    <div className="bg-gradient-to-r from-[#fdfdf8] to-[#fffafc] py-10">
+    // className="bg-gradient-to-r from-[#f4fbfc] to-[#fffafc] py-10"
+    <div> 
       <div>
         <Title
           heading={"Our Team"}
@@ -41,7 +42,7 @@ const Team = () => {
           // slidesPerView={6}
           spaceBetween={20}
           autoplay={{
-            delay: 1000,
+            delay: 2000,
           }}
           modules={[Pagination, Autoplay]}
           breakpoints={{
@@ -61,9 +62,9 @@ const Team = () => {
         >
           {teamMembers.map((person) => (
             <SwiperSlide key={person.id}>
-              <div className="text-center border-animate shadow-md text-black p-5 ">
+              <div className="text-center border-animate rounded-md text-black p-5 ">
                 <Image
-                  className="bg-neutral-50 border border-[#27A1B0] w-[150px] mx-auto rounded-full "
+                  className="border border-[#27A1B0] w-[150px] mx-auto rounded-full "
                   src={person.image}
                   alt="team mamber image"
                   width={100}

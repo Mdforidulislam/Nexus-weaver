@@ -9,12 +9,12 @@ const Title: React.FC<TitleProps> = ({ heading, subHeading }) => {
   return (
     <div
       style={{
-        backgroundImage: "radial-gradient(#baedf5, #f0f9fa, #ffffff)",
+        backgroundImage: "radial-gradient(#baedf5, #ffffff, #ffffff)",
       }}
-      className="text-center py-5 mx-5 px-5 md:py-16 my-10 space-y-2  rounded-full"
+      className="text-center py-5 px-5 md:py-16  space-y-2 "
     >
       <h1 className="text-3xl font-bold uppercase">{heading}</h1>
-      <p>{subHeading}</p>
+      <p className="w-full md:w-1/2 mx-auto">{subHeading}</p>
     </div>
   );
 };

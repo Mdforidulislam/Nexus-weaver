@@ -8,13 +8,18 @@ import { useState } from "react";
 
 const Header = () => {
   const [scroll, setScroll] = useState(0);
+
+  if (typeof window !== 'undefined') {
+    // This code will only run in the browser environment
+    window.addEventListener('scroll', () => {
+      // Get the current scroll height
+      const scrollHeight = window.scrollY;
+      setScroll(scrollHeight);
+      console.log(scrollHeight);
+    });
+  }
   
-  window.addEventListener("scroll", () => {
-    // Get the current scroll height
-    const scrollHeight = window.scrollY;
-    setScroll(scrollHeight);
-    console.log("Current scroll height:", scrollHeight);
-  });
+  
 
   return (
     <div
@@ -26,7 +31,7 @@ const Header = () => {
     >
       <div className=" w-full h-full">
         <div
-          className={`flex justify-between h-full items-center z-30 w-full p-6 bg-white  px-6 sticky top-0 ${
+          className={`flex justify-between  items-center z-30 w-full p-6 bg-white h-full px-6 sticky top-0 ${
             scroll < 100 ? "hidden" : ""
           }`}
         >
@@ -43,7 +48,7 @@ const Header = () => {
         </div>
         <Container>
           <div
-            className={`flex justify-between h-full items-center  p-6 bg-white py-3 rounded-full px-6 ${
+            className={`flex justify-between h-full  items-center top-0  p-6 bg-white py-3 rounded-full px-6 ${
               scroll > 100 ? "hidden" : ""
             }`}
           >

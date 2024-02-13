@@ -17,7 +17,7 @@ const HeroSection = () => {
   return (
     <div className="block md:flex justify-between gap-3 lg:py-14">
       <div className='lg:space-y-8 h-full'>
-        <span className="border-2 w-[100px] h-[2px"></span>
+        <span className="border-2 w-[100px] h-[2px]"></span>
         <span>WELCOME TO AGENCY</span>
         <h1 className='text-6xl font-bold '>We are Creative <br/> Website <span className="text-[#27A1B0]">Development</span>  <br/> Agency</h1>
         <p>We are 100+ professional software engineers with more than 10 years <br/> of experience in delivering superior products Believe it because youve seen it. <br/> Here are real numbers</p>

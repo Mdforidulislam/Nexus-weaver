@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Lottie from "react-lottie";
 import animation1 from "../../../public/Animation2.json";
 import Container from "@/Share/Container";
@@ -7,6 +7,11 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 const AboutUs = () => {
+  const [windowWidth, setWindowWidth] = useState(
+    typeof window !== 'undefined' ? window.innerWidth : 0
+  );
+  
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -15,6 +20,30 @@ const AboutUs = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+  
+
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  let width ;
+
+  if (windowWidth <= 768 ) {
+    width = 450;
+  }else if(windowWidth <= 425 ){
+    width = 350;
+  }else {
+    width = 600
+  }
+
 
   return (
     <div>
@@ -22,7 +51,7 @@ const AboutUs = () => {
       <div className="block md:flex gap-6 justify-between md:pt-16">
         <div>
           {/* Lottie animation */}
-          <Lottie options={defaultOptions} height={500} width={400} />
+          <Lottie options={defaultOptions} height={width} width={width} />
         </div>
         <div className="flex-1">
           <div>

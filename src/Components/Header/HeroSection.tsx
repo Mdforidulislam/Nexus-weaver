@@ -18,9 +18,10 @@ const HeroSection = () => {
   return (
     <div className="block md:flex justify-between gap-3 lg:py-20">
       <div className="lg:space-y-8 h-full max-lg:text-center mt-5 ">
-        <button className="border-l-4 border-[#27A1B0] py-2 pl-3 ">
+        <button className="text-[#27A1B0] font-bold border-l-4 border-[#27A1B0]  pl-3 mb-5">
           Nexus Weaver
         </button>
+
         <div className="w-full lg:w-4/5 space-y-5">
           <h1 className="text-6xl font-bold leading-none ">
             Your Partner in Crafting

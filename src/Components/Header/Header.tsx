@@ -14,11 +14,10 @@ const Header = () => {
     window.addEventListener('scroll', () => {
       // Get the current scroll height
       const scrollHeight = window.scrollY;
-      setScroll(scrollHeight);
-      console.log(scrollHeight);
+      setScroll(scrollHeight)
+      // Perform actions based on scroll height
     });
   }
-  
   
 
   return (
@@ -35,16 +34,14 @@ const Header = () => {
             scroll < 100 ? "hidden" : ""
           }`}
         >
-      
-            <div className="flex items-center gap-5 justify-between w-full max-w-screen-xl mx-auto px-6">
+          <div className="flex items-center gap-5 justify-between w-full h-full max-w-screen-xl mx-auto px-6">
             <div>
               <Image src={logo} height={50} width={50} alt="logo" />
             </div>
             <div>
               <Navbar />
             </div>
-            </div>
-       
+          </div>
         </div>
         <Container>
           <div

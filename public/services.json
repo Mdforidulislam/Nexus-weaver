@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "Heading": "E-commerce Development",
+    "SubHeading": "Launch and scale your online store with confidence using our e-commerce development services, tailored to your business needs and designed to maximize conversions."
+  },
+  {
+    "id": 2,
+    "Heading": "MERN Stack Development",
+    "SubHeading": "Leverage the power of MongoDB, Express.js, React, and Node.js with our expertise in MERN Stack development, delivering dynamic and scalable web applications that stand out."
+  },
+
+  {
+    "id": 3,
+    "Heading": "Website Maintenance Services",
+    "SubHeading": "Keep your online presence polished and professional with our comprehensive website maintenance solutions, ensuring your site remains secure, up-to-date, and optimized."
+  },
+  {
+    "id": 4,
+    "Heading": "Content Management Systems (CMS)",
+    "SubHeading": "Take control of your digital content with our intuitive CMS solutions, empowering you to manage, update, and distribute content across multiple platforms effortlessly."
+  },
+  {
+    "id": 5,
+    "Heading": "Learning Management Systems (LMS)",
+    "SubHeading": "Revolutionize the way you educate and engage with our innovative LMS solutions, designed to streamline content delivery, enhance learner experience, and drive results."
+  },
+  {
+    "id": 6,
+    "Heading": "Custom Web Application Development",
+    "SubHeading": "Elevate your business with tailor-made web applications crafted to meet your unique requirements and goals."
+  },
+
+  {
+    "id": 7,
+    "Heading": "Web Application Development",
+    "SubHeading": "Our team specializes in crafting bespoke web applications tailored to your unique requirements, leveraging the latest technologies and best practices to deliver solutions that drive business growth."
+  }
+]

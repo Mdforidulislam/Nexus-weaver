@@ -33,10 +33,13 @@ const Review = () => {
     <div className="bg-gray-50 py-10 ">
       <Container>
         <div className="flex flex-col md:flex-row max-md:justify-center  items-center md:gap-16">
-          <div className="md:flex-[2] flex-1 space-y-4 max-md:text-center">
-            <p className=" text-black pl-5 py-2 font-semibold md:border-l-8 border-[#27A1B0]">
+          <div className="md:flex-[2] flex-1 space-y-4 max-lg:text-center">
+            {/* <p className=" text-black pl-5 py-2 font-semibold md:border-l-8 border-[#27A1B0]">
               Happy Client
-            </p>
+            </p> */}
+            <button className="text-[#27A1B0] font-bold border-l-4 border-[#27A1B0]  pl-3 ">
+              Happy Client
+            </button>
             <h2 className="text-5xl text-[#27A1B0] font-extrabold uppercase ">
               Our Client Testimonial
             </h2>
